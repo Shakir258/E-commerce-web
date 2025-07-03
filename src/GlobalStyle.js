@@ -19,8 +19,8 @@ html {
 
 body {
   overflow-x: hidden;
-   scrollbar-color: rgb(98 84 243);
-    scrollbar-width: thin;
+  scrollbar-color: rgb(98 84 243);
+  scrollbar-width: thin;
 }
 
 body::-webkit-scrollbar {
@@ -28,7 +28,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-   background-color: rgb(24 24 29);
+  background-color: rgb(24 24 29);
 }
 
 body::-webkit-scrollbar-thumb {
