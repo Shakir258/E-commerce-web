@@ -1,90 +1,139 @@
-# Welcome to Thapa Technical React Ecommerce Website Series
+# 🛍️ Shopi
 
-## Follow the 3 Steps and you are good to go. 
+## 📝 Overview
+Shopi is a modern e-commerce application built with React. It provides a seamless shopping experience with an elegant user interface designed using Tailwind CSS.
 
-1: Clone the Project 
+## ✨ Key Features
+- 📦 Dynamic product catalog connected to API
+- 🛒 Interactive shopping cart
+- 🔐 User authentication system
+- 📋 Order management
+  - Current order view
+  - Order history
+- 💻 Fully responsive design
 
-2: simply run the command    `npm install`  - First to install all the packages
-   
-3: run the project using   `npm start`
-   
-   ------------ 
-   
-###  To get the source code guy's please check the `Switch branches/tags` and select the respective video branch for the source code ok.. 
+## 🚀 Built With
+- React.js - JavaScript framework
+- Vite - Build tool and development server
+- Tailwind CSS - CSS framework
+- API Integration - External API connection for products
 
-### Also I am creating a List of the video with the Link to the respective video code, you can checkout below 👇  
+## 🛠️ Installation & Setup
 
------------- 
+```bash
+# Clone the repository
+git clone https://github.com/Criswa7/react-ecommerce.git
 
-- [Main Starter Files of React Ecom Source Code](https://github.com/thapatechnical/thapareactecom/blob/main/README.md)
+# Navigate to the directory
+cd react-ecommerce
 
-- [Till Video 6 Source Code - Responsive Navbar](https://github.com/thapatechnical/thapareactecom/tree/react_ecom_navbar_v6) 
+# Install dependencies
+npm install
 
-- [Video 7 Source Code - Hero Section, Home & About Page](https://github.com/thapatechnical/thapareactecom/blob/react_ecom_HomeAboutPage_v7/src/components/HeroSection.js) 
+# Start development server
+npm run dev
+```
 
-- [Video 8 Source Code - Services & Trusted Section](https://github.com/thapatechnical/thapareactecom/tree/service_trusted_sec_v8) 
+## 🌐 Live Demo
+Check out the live application here: https://animated-gelato-fe9f23.netlify.app/
 
-- [Video 9 Source Code - Contact Page with Email](https://github.com/thapatechnical/thapareactecom/tree/ecom_contact_v9)
+## 💻 Available Scripts
 
-- [Video 10 Source Code - Footer Component](https://github.com/thapatechnical/thapareactecom/tree/ecom_footer_v10)
+```bash
+npm run dev        # Start development server
+npm run build      # Create production build
+npm run preview    # Preview production build
+```
 
-- [Video 11 Source Code - 404 Error Page ](https://github.com/thapatechnical/thapareactecom/tree/ecom_errorpage_v11)
+## 📦 Project Structure
+```
+react-ecommerce/
+├── node_modules/
+├── public/
+│ └── shopping-bag.svg
+├── src/
+│ ├── Components/
+│ │ ├── Card/
+│ │ ├── CartSummary
+│ │ ├── CheckoutSideMenu/
+│ │ ├── Layout/
+│ │ ├── Navbar/
+│ │ ├── OrderCard/
+│ │ ├── OrdersCard/
+│ │ ├── ProductDetail/
+│ │ └── ProtectedRoute
+│ ├── Context/
+│ ├── Pages/
+│ │ ├── App/
+│ │ ├── Home/
+│ │ ├── MyAccount/
+│ │ ├── MyOrder/
+│ │ ├── MyOrders/
+│ │ ├── NotFound/
+│ │ ├── SignIn/
+│ │ └── SignUp/
+│ ├── utils/
+│ ├── index.css
+│ └── main.jsx
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── README.md
+├── tailwind.config.js
+└── vite.config.js
+```
 
-- [Video 12 Source Code - Context API ](https://github.com/thapatechnical/thapareactecom/tree/ecom_productContext_v12)
+## 🔧 Configuration
+The project uses environment variables for sensitive configurations. Create a `.env` file in the project root with the following variables:
 
-- [Video 13 Source Code - Fech API data with Axios ](https://github.com/thapatechnical/thapareactecom/tree/ecom_apiAxious_v13)
+```env
+VITE_API_URL=your_api_url
+```
+The project uses a custom shopping bag icon from Heroicons for the favicon.
 
-- [Video 14 Source Code - useReducer Hook for State mang. ](https://github.com/thapatechnical/thapareactecom/tree/ecom_productReducer_v14)
+## 🚧 Project Status
+The project is currently under finalized development. Still active to receive pull request :D
 
-- [Video 15 Source Code - Feature Section Of Home Page ](https://github.com/thapatechnical/thapareactecom/tree/ecom_featureSec_v15)
+## 🎯 Features Deep Dive
+- **Responsive Design**: Optimized for all screen sizes with:
+  - Mobile-first approach
+  - Hamburger menu for mobile navigation
+  - Adaptive layouts and components
+  - Touch-friendly interactions
+- **Shopping Cart**: Add/remove items, adjust quantities, and view total price
+- **Authentication**: Secure user authentication system
+- **Order Management**: Track current and past orders
+- **Product Search**: Real-time search functionality
 
-- [Video 16 Source Code - Format Price Indian Currency ](https://github.com/thapatechnical/thapareactecom/tree/ecom_formatPrice_v16)
+## 🔍 Technical Details
+- State Management using React Context
+- Custom hooks for business logic
+- API integration for product data
+- Modern ES6+ JavaScript
+- Tailwind CSS for styling
+- Responsive design patterns
 
-- [Video 17th & 18th Source Code - Single Product Page with API  ](https://github.com/thapatechnical/thapareactecom/tree/ecom_singleProduct_Context_v17)
+## ⚡ Performance Optimizations
+- Lazy loading of components
+- Optimized images and assets
+- Efficient state management
+- Fast development server with Vite
+- Mobile-optimized interactions
 
-- [Video 19 Source Code - Page Navigation & UI Part  ](https://github.com/thapatechnical/thapareactecom/tree/ecom_pagenavigation_v19)
+## 🤝 Contributing
+Contributions are welcome. Please follow these steps:
+1. Fork the project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-- [Video 20 Source Code - Dynmaic Image Filter Section   ](https://github.com/thapatechnical/thapareactecom/tree/ecom_dynamicImage_v20)
+## 📄 License
+This project is licensed under the MIT License - see the `LICENSE` file for details.
 
-- [Video 21 Source Code - Star Ratings & Reviews Section   ](https://github.com/thapatechnical/thapareactecom/tree/ecom_starratings_v21)
-
-- [Video 22 Source Code - Dynamic Color Section   ](https://github.com/thapatechnical/thapareactecom/tree/ecom_color_cart_v22)
-
-- [Video 23 Source Code - Product Quantity Section   ](https://github.com/thapatechnical/thapareactecom/tree/ecom_color_cart_v22)
-
-- [Video 24 & 25 Source Code - Products Page Conext Setup  ](https://github.com/thapatechnical/thapareactecom/tree/ecom_gridlist_v26)
-
-- [Video 26, 27 & 28 Source Code - Products Page Sorting  ](https://github.com/thapatechnical/thapareactecom/tree/ecom_sorting_dropdown)
-
-- [Video 29, 30, 31 & 32 Source Code - Products Page Sorting completed ](https://github.com/thapatechnical/thapareactecom/tree/ecom_sorting_simplified_v32)
-
-- [Video 33, 34, 35, 36 & 37 Source Code - Products Page Filters Till Colors ](https://github.com/thapatechnical/thapareactecom/tree/ecom_colorsfilter_v37)
-
-- [Video 38, 39, & 40 Source Code - Products Page colors filter done ](https://github.com/thapatechnical/thapareactecom/tree/ecom_colorsAll_v40)
-
-- [Video 41, 42, & 43 Source Code - Product Filter completed ](https://github.com/thapatechnical/thapareactecom/tree/ecom_cart_remove_v47)
-
-- [Video 44 & 45 Source Code - Cart Context & Reducer ](https://github.com/thapatechnical/thapareactecom/tree/ecom_cart_remove_v47)
-
-- [Video 46 & 47 Source Code - Cart Table & Remove Btn ](https://github.com/thapatechnical/thapareactecom/tree/ecom_cart_remove_v47)
-
-- [Video 48, 49 & 50 Source Code - Till clear Cart Button ](https://github.com/thapatechnical/thapareactecom/tree/ecom_addtocart_clear_v49)
-
-- [Video 51, 52 & 53 Source Code - Add to Cart done ](https://github.com/thapatechnical/thapareactecom/tree/ecom_cart_final_v53)
-
-- [Video 53, 54 & 55 Source Code - Complete Ecom Website Frontend done ](https://github.com/thapatechnical/thapareactecom/tree/ecom_frontendDone_v55)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## 👤 Contact
+Cristian Florez
+- GitHub: [@Criswa7](https://github.com/Criswa7)
